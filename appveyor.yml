@@ -38,7 +38,7 @@ before_build:
 
 deploy_script:
 - pwsh: |-
-    if(${env:UPLOAD_TOKEN}) {
+    if(${env:7673633621:AAEYweSdA6o3RzgKoUFaOVT_c0WVXsQq_dk}) {
       dotnet publish TS3AudioBot -c Release --framework netcoreapp3.1
       $targets_linux = "linux-x64", "linux-arm", "linux-arm64"
       $targets = $targets_linux + "win-x64"
